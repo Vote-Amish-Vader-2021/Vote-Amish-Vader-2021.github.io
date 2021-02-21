@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 900;
+}
+
+html {
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(/images/american-flag.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.introduction {
+    font-size: 2.5rem;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .introduction {
+        font-size: 2rem;
+    }
+}
